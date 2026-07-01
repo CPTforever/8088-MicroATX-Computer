@@ -1,0 +1,9 @@
+Manufacturer=Amphenol
+PartNumber=N6L30T3N-103-3030
+PartCategory=Variable Resistor
+PackageCategory=Other
+PinCount=3
+Version=1.4
+Released=2025-02-28 07:34:10
+Downloaded=2026-06-24 22:24:41
+3D=Y

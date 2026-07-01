@@ -1,0 +1,9 @@
+Manufacturer=Newhaven Display
+PartNumber=NHD-0440WH-ATMI-JT#
+PartCategory=Display
+PackageCategory=Other
+PinCount=22
+Version=2.2
+Released=2019-12-18 15:07:38
+Downloaded=2026-06-24 21:52:47
+3D=Y

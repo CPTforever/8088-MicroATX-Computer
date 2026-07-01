@@ -1,0 +1,9 @@
+Manufacturer=Knowles
+PartNumber=JZ300
+PartCategory=Capacitor
+PackageCategory=Other
+PinCount=2
+Version=2.5
+Released=2020-11-24 11:20:54
+Downloaded=2026-06-24 06:50:06
+3D=Y

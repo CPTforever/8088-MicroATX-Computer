@@ -1,0 +1,25 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model 95C06A2GWT
+#/822504/1518343/2.50/4/3/Switch
+DEF 95C06A2GWT S 0 30 Y Y 1 F N
+F0 "S" 1050 300 50 H V L CNN
+F1 "95C06A2GWT" 1050 200 50 H V L CNN
+F2 "95C06A2GWT" 1050 100 50 H I L CNN
+F3 "https://app-grayhill-website-cms-prod-001.azurewebsites.net/media/a2zdbu3t/95c06-datasheet.pdf" 1050 0 50 H I L CNN
+F4 "Tactile Switches TACT,GW,NW,6X6,77T,LF" 1050 -100 50 H I L CNN "Description"
+F5 "4.29" 1050 -200 50 H I L CNN "Height"
+F6 "706-95C06A2GWT" 1050 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Grayhill/95C06A2GWT?qs=ls7QRyWmRk4Zwf0swewj%2FQ%3D%3D" 1050 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Grayhill" 1050 -500 50 H I L CNN "Manufacturer_Name"
+F9 "95C06A2GWT" 1050 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X COM_1 T1 0 0 200 R 50 50 0 0 P
+X COM_2 T2 1200 0 200 L 50 50 0 0 P
+X NO_1 T3 0 -100 200 R 50 50 0 0 P
+X NO_2 T4 1200 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

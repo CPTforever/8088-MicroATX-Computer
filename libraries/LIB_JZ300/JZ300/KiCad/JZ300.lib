@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model JZ300
+#/2087607/1518343/2.50/2/3/Capacitor
+DEF JZ300 C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "JZ300" 350 150 50 H V L CNN
+F2 "JZ300" 350 50 50 H I L CNN
+F3 "https://pl.mouser.com/datasheet/2/218/knowles_12132018_J_Series_Trim-1510080.pdf" 350 -50 50 H I L CNN
+F4 "5.5 ~ 30pF Trimmer Capacitor 125 V Top Surface Mount, -40C ~ 85C" 350 -150 50 H I L CNN "Description"
+F5 "1.651" 350 -250 50 H I L CNN "Height"
+F6 "768-JZ300" 350 -350 50 H I L CNN "Mouser Part Number"
+F7 "" 350 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Knowles" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "JZ300" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 100 280 -100 N
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 280 0 300 0 N
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,0 +1,9 @@
+Manufacturer=Dailywell
+PartNumber=2MS6T4B3M2CES
+PartCategory=Switch
+PackageCategory=Other
+PinCount=2
+Version=1.3
+Released=2021-01-06 10:45:59
+Downloaded=2026-06-25 03:47:08
+3D=Y

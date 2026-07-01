@@ -1,0 +1,138 @@
+(footprint "CVS-1508"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "CVS-1508")
+	(tags "Loudspeaker or Buzzer")
+	(property "Reference" "LS**"
+		(at -0.301 -0.751 0)
+		(layer "F.SilkS")
+		(uuid "8fd966e8-d7ef-4367-8b94-868ab63f5fb7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "CVS-1508"
+		(at -0.301 -0.751 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c0e5d211-f287-48bf-be17-ef9cd7986567")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9c3e2bd7-8350-456f-bef3-27f99a4d97fd")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b51d4ccd-46ee-4f53-b452-69d072bbcb5f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center 0 -9)
+		(end 0 -8.948)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "10a40d6a-92e5-4456-9ce6-c61467b521e4")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 7.5)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "1bb14dd5-68bf-456a-adae-7769aade336e")
+	)
+	(fp_circle
+		(center 0 0)
+		(end -8.5 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "6f79199b-75de-4ec3-ade4-91c39e298b9a")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 7.5)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "d1dfd888-21fa-4344-8aac-01327a4aa797")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.301 -0.751 0)
+		(layer "F.Fab")
+		(uuid "8ce96584-5e04-4610-93f4-9f505ae0dd22")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 -3.8)
+		(size 1.6 1.6)
+		(drill 1.05)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "34c59728-798f-46e3-b525-8643434800ec")
+	)
+	(pad "2" thru_hole circle
+		(at 0 3.8)
+		(size 1.6 1.6)
+		(drill 1.05)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d5287241-b278-4e8d-bbf4-ae6baff7f9a8")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/libraries/LIB_CVS-1508/CVS-1508/3D/CVS-1508.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

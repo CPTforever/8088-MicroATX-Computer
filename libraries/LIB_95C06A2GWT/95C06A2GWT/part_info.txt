@@ -1,0 +1,9 @@
+Manufacturer=Grayhill
+PartNumber=95C06A2GWT
+PartCategory=Switch
+PackageCategory=Other
+PinCount=4
+Version=1.4
+Released=2024-09-04 09:07:31
+Downloaded=2026-06-25 03:55:10
+3D=N

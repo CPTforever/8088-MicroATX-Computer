@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DS12C887+
+D Real Time Clock Real-Time Clocks
+K
+F https://www.analog.com/media/en/technical-documentation/data-sheets/DS12885-DS12C887A.pdf
+$ENDCMP
+#
+#End Doc Library

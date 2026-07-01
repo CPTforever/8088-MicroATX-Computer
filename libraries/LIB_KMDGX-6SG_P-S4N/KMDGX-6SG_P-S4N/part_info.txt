@@ -1,0 +1,9 @@
+Manufacturer=Kycon
+PartNumber=KMDGX-6SG/P-S4N
+PartCategory=Connector
+PackageCategory=Other
+PinCount=17
+Version=1.7
+Released=2023-05-26 14:44:47
+Downloaded=2026-06-24 23:50:37
+3D=Y

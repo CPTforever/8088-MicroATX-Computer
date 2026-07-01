@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP N6L30T3N-103-3030
+D 10 kOhms 0.1W, 1/10W PC Pins Through Hole Trimmer Potentiometer Carbon 1.0 Turn Top Adjustment
+K
+F https://www.lcsc.com/datasheet/lcsc_datasheet_2411220311_Amphenol-ICC-N6L30T3N-103-3030_C6242812.pdf
+$ENDCMP
+#
+#End Doc Library

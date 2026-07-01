@@ -1,0 +1,9 @@
+Manufacturer=Analog Devices
+PartNumber=DS12C887+
+PartCategory=Integrated Circuit
+PackageCategory=Dual-In-Line Packages
+PinCount=24
+Version=1.1
+Released=2024-03-20 06:54:25
+Downloaded=2026-06-25 03:29:53
+3D=Y

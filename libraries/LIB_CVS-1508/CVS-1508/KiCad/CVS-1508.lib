@@ -1,0 +1,24 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model CVS-1508
+#/693759/1518343/2.50/2/2/Loudspeaker or Buzzer
+DEF CVS-1508 LS 0 30 Y Y 1 F N
+F0 "LS" 450 0 50 H V L CNN
+F1 "CVS-1508" 450 -100 50 H V L CNN
+F2 "CVS-1508" 450 -200 50 H I L CNN
+F3 "https://www.sameskydevices.com/product/resource/cvs-1508.pdf" 450 -300 50 H I L CNN
+F4 "15 mm, Round Frame, 0.3 W, 8 Ohm, Neodymium Magnet, PET Cone, Speaker" 450 -400 50 H I L CNN "Description"
+F5 "" 450 -500 50 H I L CNN "Height"
+F6 "490-CVS-1508" 450 -600 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/CUI-Devices/CVS-1508?qs=WyjlAZoYn51yYutSxchnhg%3D%3D" 450 -700 50 H I L CNN "Mouser Price/Stock"
+F8 "Same Sky" 450 -800 50 H I L CNN "Manufacturer_Name"
+F9 "CVS-1508" 450 -900 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X + 2 0 0 200 R 50 50 0 0 P
+X - 1 0 -100 200 R 50 50 0 0 P
+P 6 0 1 6 200 50 280 50 380 150 380 -250 280 -150 200 -150 N
+P 2 0 1 6 200 50 200 -150 N
+ENDDRAW
+ENDDEF
+#
+#End Library

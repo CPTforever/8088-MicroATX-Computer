@@ -1,0 +1,9 @@
+Manufacturer=TE Connectivity
+PartNumber=6-5530843-5
+PartCategory=Connector
+PackageCategory=Other
+PinCount=62
+Version=2.2
+Released=2019-08-14 22:09:49
+Downloaded=2026-06-25 00:37:56
+3D=Y

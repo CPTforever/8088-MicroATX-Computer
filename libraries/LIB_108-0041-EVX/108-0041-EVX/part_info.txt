@@ -1,0 +1,9 @@
+Manufacturer=Mountain Switch
+PartNumber=108-0041-EVX
+PartCategory=Switch
+PackageCategory=Other
+PinCount=3
+Version=1.1
+Released=2021-09-12 06:50:54
+Downloaded=2026-06-26 07:55:28
+3D=Y

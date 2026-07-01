@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TS02-66-50-BK-260-SCR-D
+D 6 x 6 mm, 5 mm Actuator Height Off PCB, 260 gf, Black, Short Crimped, Through Hole, SPST, Tactile Switch
+K
+F https://www.sameskydevices.com/product/resource/ts02.pdf
+$ENDCMP
+#
+#End Doc Library

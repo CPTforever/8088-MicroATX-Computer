@@ -1,0 +1,9 @@
+Manufacturer=Amphenol Communications Solutions
+PartNumber=L717SDE09PA4CH4RC309
+PartCategory=Connector
+PackageCategory=Other
+PinCount=11
+Version=8.1
+Released=2019-03-02 12:36:45
+Downloaded=2026-06-25 04:41:56
+3D=Y

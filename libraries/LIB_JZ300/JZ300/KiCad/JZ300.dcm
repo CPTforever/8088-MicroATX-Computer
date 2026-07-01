@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP JZ300
+D 5.5 ~ 30pF Trimmer Capacitor 125 V Top Surface Mount, -40C ~ 85C
+K
+F https://pl.mouser.com/datasheet/2/218/knowles_12132018_J_Series_Trim-1510080.pdf
+$ENDCMP
+#
+#End Doc Library
