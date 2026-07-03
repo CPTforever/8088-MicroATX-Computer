@@ -8927,7 +8927,7 @@
 		)
 		(uuid "4eefb7f0-c66a-4939-8aac-8452059d1d78")
 	)
-	(label "~{S{2..0}}"
+	(label "~{S[2..0]}"
 		(at 52.07 121.92 0)
 		(effects
 			(font

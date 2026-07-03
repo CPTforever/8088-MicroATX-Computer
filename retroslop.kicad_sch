@@ -442,6 +442,10 @@
 		(at 49.53 168.91)
 		(uuid "38274733-6d9f-4a10-a228-42a342a92ad8")
 	)
+	(no_connect
+		(at 40.64 207.01)
+		(uuid "596feb42-4ee6-48d7-8e5d-652263551fe8")
+	)
 	(bus_entry
 		(at 208.28 283.21)
 		(size -2.54 2.54)
@@ -4021,6 +4025,16 @@
 		)
 		(uuid "f8f1d93c-a42c-4eb0-9d07-d24519a25a31")
 	)
+	(wire
+		(pts
+			(xy 40.64 207.01) (xy 52.07 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f92aef90-5f8b-4eb1-9549-a7b33fc14495")
+	)
 	(bus
 		(pts
 			(xy 133.35 35.56) (xy 133.35 59.69)
@@ -6044,6 +6058,16 @@
 				(justify right)
 			)
 		)
+		(pin "~{HRQ I{slash}O CH}" input
+			(at 52.07 207.01 180)
+			(uuid "b5c4e1e3-92e0-494f-a9e2-3a3c9a52d0b0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "retroslop"
 				(path "/c091a5a9-cc18-4de7-90b1-5162a376bd78"
@@ -6568,7 +6592,7 @@
 				(justify left)
 			)
 		)
-		(pin "~{DACK[3:0]}" input
+		(pin "~{DACK[3..0]}" input
 			(at 168.91 153.67 180)
 			(uuid "fe880767-9e2c-44f5-beb9-75b32e40aaa1")
 			(effects
