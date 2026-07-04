@@ -7186,10 +7186,22 @@
 		(uuid "0224530b-217b-4a11-bcfa-f652150a6a5d")
 	)
 	(junction
+		(at 265.43 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e855085-707e-4a8a-9a5c-4114abb93e3b")
+	)
+	(junction
 		(at 92.71 181.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "35c2786b-a5dc-4c5f-9b9a-ebe0f39d7332")
+	)
+	(junction
+		(at 265.43 193.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "49cad6b0-33e4-4e23-ad37-bf6b062f5f57")
 	)
 	(junction
 		(at 163.83 228.6)
@@ -7234,12 +7246,6 @@
 		(uuid "737f576f-f6df-4853-9e12-87365db5d300")
 	)
 	(junction
-		(at 55.88 179.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "83cfa015-3000-4d03-8515-fd29615e9eb9")
-	)
-	(junction
 		(at 74.93 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7281,19 +7287,9 @@
 		(color 0 0 0 0)
 		(uuid "e2dd81db-c76a-4ab9-a8c0-c8b4853c0ded")
 	)
-	(junction
-		(at 270.51 193.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fd8935f4-d689-4f42-8636-ae93fb8ceeab")
-	)
 	(no_connect
-		(at 361.95 83.82)
-		(uuid "12e44520-10d2-4adf-b044-cf26430d736f")
-	)
-	(no_connect
-		(at 361.95 78.74)
-		(uuid "26c21a2e-a723-4a05-a96c-a62cbe9b9f11")
+		(at 379.73 105.41)
+		(uuid "57451d6d-c8da-4938-bf0c-cbfbc9431800")
 	)
 	(no_connect
 		(at 331.47 229.87)
@@ -7302,10 +7298,6 @@
 	(no_connect
 		(at 204.47 132.08)
 		(uuid "8f4f6762-cf02-4efd-99e4-4fcf29f7d65a")
-	)
-	(no_connect
-		(at 377.19 81.28)
-		(uuid "99279c99-dca1-4e99-bff6-53837b6a73bf")
 	)
 	(no_connect
 		(at 353.06 186.69)
@@ -7519,7 +7511,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 185.42) (xy 270.51 193.04)
+			(xy 265.43 182.88) (xy 265.43 187.96)
 		)
 		(stroke
 			(width 0)
@@ -7709,6 +7701,16 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 187.96) (xy 265.43 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "406a205f-8c6a-467c-84ed-ea9dbc2c9170")
+	)
+	(wire
+		(pts
 			(xy 214.63 66.04) (xy 214.63 97.79)
 		)
 		(stroke
@@ -7816,16 +7818,6 @@
 			(type default)
 		)
 		(uuid "52344aa3-f5bc-4b61-87a0-6749b5ad9766")
-	)
-	(wire
-		(pts
-			(xy 270.51 193.04) (xy 304.8 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "525d7ea3-af68-467c-bc61-9724aa84d456")
 	)
 	(wire
 		(pts
@@ -7999,7 +7991,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 193.04) (xy 270.51 193.04)
+			(xy 138.43 193.04) (xy 265.43 193.04)
 		)
 		(stroke
 			(width 0)
@@ -8349,6 +8341,16 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 193.04) (xy 304.8 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a59530e-1eec-4204-b9ac-293d16de809d")
+	)
+	(wire
+		(pts
 			(xy 168.91 30.48) (xy 168.91 31.75)
 		)
 		(stroke
@@ -8369,13 +8371,13 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 179.07) (xy 55.88 179.07)
+			(xy 265.43 182.88) (xy 269.24 182.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a10bfe6a-4b42-4f8b-a69d-5a0c4af56bc4")
+		(uuid "a00713b3-6112-4873-931e-82fdbfdb655c")
 	)
 	(wire
 		(pts
@@ -8396,6 +8398,16 @@
 			(type default)
 		)
 		(uuid "a7d038d1-f217-4e4a-8727-8e7c72e937ce")
+	)
+	(wire
+		(pts
+			(xy 265.43 187.96) (xy 269.24 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a97b66b5-e86e-465c-a48e-fd988ca2e33f")
 	)
 	(wire
 		(pts
@@ -8779,6 +8791,16 @@
 	)
 	(wire
 		(pts
+			(xy 284.48 185.42) (xy 288.29 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f55440ad-50fa-4917-9e4b-ea8cb997db4c")
+	)
+	(wire
+		(pts
 			(xy 214.63 97.79) (xy 166.37 97.79)
 		)
 		(stroke
@@ -8809,16 +8831,6 @@
 	)
 	(wire
 		(pts
-			(xy 285.75 185.42) (xy 288.29 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa95102c-18d5-4320-96ce-f6be3c8f9162")
-	)
-	(wire
-		(pts
 			(xy 163.83 228.6) (xy 163.83 234.95)
 		)
 		(stroke
@@ -8846,6 +8858,16 @@
 			(type default)
 		)
 		(uuid "fda9aa9f-2966-477f-ad2f-8a804298fd32")
+	)
+	(wire
+		(pts
+			(xy 364.49 105.41) (xy 364.49 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdb0af5a-b194-4337-bcb1-e019c1fddd2b")
 	)
 	(wire
 		(pts
@@ -9195,17 +9217,6 @@
 			(justify left)
 		)
 		(uuid "78afb8bb-71ae-49f3-a396-46dd7a0a65a6")
-	)
-	(hierarchical_label "~{HRQ I{slash}O CH}"
-		(shape input)
-		(at 38.1 179.07 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "86f119cb-60fb-4ef9-8d39-7c3a54f0da14")
 	)
 	(hierarchical_label "~{AEN}"
 		(shape output)
@@ -11220,6 +11231,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 364.49 109.22 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50f1bfb2-33da-497e-90c2-93e42951face")
+		(property "Reference" "#PWR0174"
+			(at 364.49 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 364.49 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 364.49 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 364.49 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 364.49 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6d9ac274-983b-4ae8-bee8-3ecf893db2fa")
+		)
+		(instances
+			(project "retroslop"
+				(path "/c091a5a9-cc18-4de7-90b1-5162a376bd78/03093195-4e98-44a3-9b51-400c2d764eeb"
+					(reference "#PWR0174")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "74LS20_1")
 		(lib_id "74xx_copy:74LS20")
 		(at 105.41 52.07 0)
@@ -12477,7 +12566,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS02")
-		(at 369.57 81.28 0)
+		(at 276.86 185.42 0)
 		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12488,7 +12577,7 @@
 		(fields_autoplaced yes)
 		(uuid "6e4dc224-4e88-4b6e-8af5-6a812350cb6b")
 		(property "Reference" "U2"
-			(at 369.57 72.39 0)
+			(at 276.86 176.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12498,7 +12587,7 @@
 			)
 		)
 		(property "Value" "74LS02"
-			(at 369.57 74.93 0)
+			(at 276.86 179.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12508,7 +12597,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 369.57 81.28 0)
+			(at 276.86 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12519,7 +12608,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74ls02"
-			(at 369.57 81.28 0)
+			(at 276.86 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12530,7 +12619,7 @@
 			)
 		)
 		(property "Description" "quad 2-input NOR gate"
-			(at 369.57 81.28 0)
+			(at 276.86 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12541,7 +12630,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 369.57 81.28 0)
+			(at 276.86 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14694,133 +14783,6 @@
 		)
 	)
 	(symbol
-		(lib_id "74xx:74LS04")
-		(at 278.13 185.42 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b4a29343-148d-4a59-a824-a8fb62f13fff")
-		(property "Reference" "U22"
-			(at 278.13 176.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74LS04"
-			(at 278.13 179.07 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 278.13 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04"
-			(at 278.13 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Hex Inverter"
-			(at 278.13 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 278.13 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "8fb78a91-50ba-4c40-a6da-56f2cd2fbf36")
-		)
-		(pin "6"
-			(uuid "5b097d40-4224-4319-b9a6-22b9b94d7a14")
-		)
-		(pin "1"
-			(uuid "cb4efc28-a4c3-4b92-aa67-d16d905497af")
-		)
-		(pin "2"
-			(uuid "9e3f72ca-b3bf-4f73-8ea2-6035b84f5c8b")
-		)
-		(pin "11"
-			(uuid "75b06ebf-bd52-4bb9-8999-a98d099e8a5b")
-		)
-		(pin "9"
-			(uuid "65d19c7e-fd06-4af7-9d97-2a0486a20be4")
-		)
-		(pin "13"
-			(uuid "cd846427-f198-4783-b07e-8db0a7294b2e")
-		)
-		(pin "5"
-			(uuid "0895dff1-db64-46d0-8450-bc4e7a543813")
-		)
-		(pin "8"
-			(uuid "0525a29b-a8be-4c80-a0b6-1c0b689c6a90")
-		)
-		(pin "4"
-			(uuid "43466c1d-4757-46d6-9d3b-94ab19c4e25d")
-		)
-		(pin "7"
-			(uuid "6af6435e-1294-4744-948d-3a7157b9c86b")
-		)
-		(pin "10"
-			(uuid "f4b06140-798d-4d6c-89b7-459ac0cd5abb")
-		)
-		(pin "14"
-			(uuid "405b2012-f54f-4685-97a7-8ddb7a6140a5")
-		)
-		(pin "12"
-			(uuid "ce2b9547-2324-472d-a8ac-a6b28ed4bad8")
-		)
-		(instances
-			(project "retroslop"
-				(path "/c091a5a9-cc18-4de7-90b1-5162a376bd78/03093195-4e98-44a3-9b51-400c2d764eeb"
-					(reference "U22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 384.81 144.78 0)
 		(unit 1)
@@ -15254,6 +15216,133 @@
 			(project "retroslop"
 				(path "/c091a5a9-cc18-4de7-90b1-5162a376bd78/03093195-4e98-44a3-9b51-400c2d764eeb"
 					(reference "#PWR0159")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74LS04")
+		(at 372.11 105.41 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd14357e-1615-481c-bb1f-31a70e12173b")
+		(property "Reference" "U22"
+			(at 372.11 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LS04"
+			(at 372.11 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+			(at 372.11 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04"
+			(at 372.11 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Hex Inverter"
+			(at 372.11 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 372.11 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "8fb78a91-50ba-4c40-a6da-56f2cd2fbf36")
+		)
+		(pin "6"
+			(uuid "5b097d40-4224-4319-b9a6-22b9b94d7a14")
+		)
+		(pin "1"
+			(uuid "3957f9c4-c2d2-45ed-90da-b83e57810c53")
+		)
+		(pin "2"
+			(uuid "10f8fdcb-6276-4a83-93c5-17a0941cb8f5")
+		)
+		(pin "11"
+			(uuid "75b06ebf-bd52-4bb9-8999-a98d099e8a5b")
+		)
+		(pin "9"
+			(uuid "65d19c7e-fd06-4af7-9d97-2a0486a20be4")
+		)
+		(pin "13"
+			(uuid "cd846427-f198-4783-b07e-8db0a7294b2e")
+		)
+		(pin "5"
+			(uuid "0895dff1-db64-46d0-8450-bc4e7a543813")
+		)
+		(pin "8"
+			(uuid "0525a29b-a8be-4c80-a0b6-1c0b689c6a90")
+		)
+		(pin "4"
+			(uuid "43466c1d-4757-46d6-9d3b-94ab19c4e25d")
+		)
+		(pin "7"
+			(uuid "6af6435e-1294-4744-948d-3a7157b9c86b")
+		)
+		(pin "10"
+			(uuid "f4b06140-798d-4d6c-89b7-459ac0cd5abb")
+		)
+		(pin "14"
+			(uuid "405b2012-f54f-4685-97a7-8ddb7a6140a5")
+		)
+		(pin "12"
+			(uuid "ce2b9547-2324-472d-a8ac-a6b28ed4bad8")
+		)
+		(instances
+			(project "retroslop"
+				(path "/c091a5a9-cc18-4de7-90b1-5162a376bd78/03093195-4e98-44a3-9b51-400c2d764eeb"
+					(reference "U22")
 					(unit 1)
 				)
 			)
