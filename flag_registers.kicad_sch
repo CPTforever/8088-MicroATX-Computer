@@ -5269,7 +5269,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 245.11 48.26 0)
+		(at 243.84 48.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5280,7 +5280,7 @@
 		(fields_autoplaced yes)
 		(uuid "c5de9fd3-a5dc-4926-8ea3-c48b45408762")
 		(property "Reference" "#PWR0205"
-			(at 245.11 52.07 0)
+			(at 243.84 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5291,7 +5291,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 245.11 43.18 0)
+			(at 243.84 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5301,7 +5301,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 245.11 48.26 0)
+			(at 243.84 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5312,7 +5312,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 245.11 48.26 0)
+			(at 243.84 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5323,7 +5323,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 245.11 48.26 0)
+			(at 243.84 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

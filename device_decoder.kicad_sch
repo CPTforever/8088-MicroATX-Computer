@@ -5450,7 +5450,7 @@
 		(uuid "fb5807d6-dd6a-4fe2-be10-f22f25d7a52d")
 	)
 	(hierarchical_label "~{RTC CS}"
-		(shape input)
+		(shape output)
 		(at 208.28 53.34 0)
 		(effects
 			(font
@@ -5461,7 +5461,7 @@
 		(uuid "064310e6-a1a9-4f70-a51e-538e9425911c")
 	)
 	(hierarchical_label "~{DMA CS}"
-		(shape input)
+		(shape output)
 		(at 208.28 31.75 0)
 		(effects
 			(font
@@ -5483,7 +5483,7 @@
 		(uuid "37dd8e60-257f-4453-8cc1-9f9beb325455")
 	)
 	(hierarchical_label "~{UART CS}"
-		(shape input)
+		(shape output)
 		(at 208.28 49.53 0)
 		(effects
 			(font
@@ -5494,7 +5494,7 @@
 		(uuid "3eb56ce7-6160-4775-8d27-cbcd28a1325f")
 	)
 	(hierarchical_label "~{PPI CS}"
-		(shape input)
+		(shape output)
 		(at 208.28 46.99 0)
 		(effects
 			(font
@@ -5516,7 +5516,7 @@
 		(uuid "6ef3b385-a30e-41e1-8b69-4244f37ce7f1")
 	)
 	(hierarchical_label "~{DMA REG CS}"
-		(shape input)
+		(shape output)
 		(at 208.28 41.91 0)
 		(effects
 			(font
@@ -5571,7 +5571,7 @@
 		(uuid "b6c235ab-57f3-4aaf-8702-74fe5cb6fa4c")
 	)
 	(hierarchical_label "~{FLAG CS}"
-		(shape input)
+		(shape output)
 		(at 208.28 44.45 0)
 		(effects
 			(font
@@ -5593,7 +5593,7 @@
 		(uuid "de290426-e8b5-4e25-afa2-da9b143438df")
 	)
 	(hierarchical_label "~{PIT CS}"
-		(shape input)
+		(shape output)
 		(at 208.28 36.83 0)
 		(effects
 			(font
@@ -5615,7 +5615,7 @@
 		(uuid "ec742b7e-d3ee-4517-babe-0be8e4f174a6")
 	)
 	(hierarchical_label "~{KBRD CS}"
-		(shape input)
+		(shape output)
 		(at 208.28 39.37 0)
 		(effects
 			(font
