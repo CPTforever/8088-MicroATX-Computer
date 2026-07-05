@@ -4276,16 +4276,6 @@
 		)
 		(uuid "36541f65-46d9-4b6c-a4f3-12f352831b53")
 	)
-	(label "~{XIOR}"
-		(at 237.49 283.21 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "39390b02-5006-4b90-947f-e113b6a9428a")
-	)
 	(label "~{IOW}"
 		(at 97.79 88.9 0)
 		(effects
@@ -4335,6 +4325,16 @@
 			(justify right bottom)
 		)
 		(uuid "4a2ccdf9-9bc4-496d-95f4-c2f90fe27ece")
+	)
+	(label "~{XIOW}"
+		(at 237.49 283.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4b6cb499-b956-411a-9edd-518efd6eaeee")
 	)
 	(label "~{XMEMR}"
 		(at 204.47 123.19 0)
@@ -4416,16 +4416,6 @@
 		)
 		(uuid "5f8377e7-ad5e-4650-8d49-f854a94b0418")
 	)
-	(label "~{XIOW}"
-		(at 237.49 285.75 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5fdd39ca-169d-40f8-84e3-4cb45205cd97")
-	)
 	(label "~{XMEMR}"
 		(at 92.71 153.67 0)
 		(effects
@@ -4465,6 +4455,16 @@
 			(justify left bottom)
 		)
 		(uuid "6777d753-a7e3-4469-a264-3d8ea291555a")
+	)
+	(label "~{XIOR}"
+		(at 237.49 285.75 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6b7d1739-1639-4cc1-b4cb-cd955a9bc492")
 	)
 	(label "~{XIOR}"
 		(at 91.44 96.52 0)

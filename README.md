@@ -1,5 +1,7 @@
 # Insert header here
 
+![pcb_front](https://github.com/CPTforever/8088-MicroATX-Computer/blob/main/Images/pcb_front.png)
+![pcb_back](https://github.com/CPTforever/8088-MicroATX-Computer/blob/main/Images/pcb_back.png)
 Insert image of board here
 
 # Features!
