@@ -3508,7 +3508,7 @@
 		(uuid "49b5309f-8dff-4e0a-bc8d-05745e7da7ff")
 	)
 	(hierarchical_label "SPKR EN"
-		(shape input)
+		(shape output)
 		(at 205.74 55.88 0)
 		(effects
 			(font
@@ -3563,7 +3563,7 @@
 		(uuid "995e6924-9ae2-4fce-8482-07e09f502218")
 	)
 	(hierarchical_label "SPKR GATE"
-		(shape input)
+		(shape output)
 		(at 205.74 58.42 0)
 		(effects
 			(font

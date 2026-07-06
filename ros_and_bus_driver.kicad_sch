@@ -2523,16 +2523,15 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "(IOR & ~XA9) | (RAS & MEMR) = DIR\nIOR & ~XA9 = DIR\n~(~IOR | XA9) = DIR\nIOR & ~XA9 = ~TOA\n~(IOR & ~XA9)\n\nIf (IOR == 0 and XA9 == 0) {\n	A->B = 0\n}\n\n~(A->B) = ~IOR & ~XA9\n\nA->B = ~(~IOR & ~XA9)\nIOR | XA9 = A->B"
+	(text "When an IO read happens we need to read from XD\nbut when XA9 is asserted that's a read from the \nisa bus so we don't want double drivers"
 		(exclude_from_sim no)
-		(at 158.242 76.454 0)
+		(at 150.622 58.928 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
 		)
-		(uuid "2a8d1f6c-cdcd-40c2-a8c0-deb570dc3e68")
+		(uuid "3f5860c5-9860-4dea-84bb-3bca661684cf")
 	)
 	(text "Figure out value of termination resistor?"
 		(exclude_from_sim no)
@@ -2639,6 +2638,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f1683549-7cf2-4b76-8f4f-3d43efa5c2f7")
+	)
+	(junction
+		(at 66.04 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd0da2e5-d77d-4018-a92b-76a1aa97e060")
 	)
 	(no_connect
 		(at 104.14 52.07)
@@ -3205,7 +3210,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 76.2) (xy 130.81 76.2)
+			(xy 118.11 76.2) (xy 140.97 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3415,7 +3420,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 85.09) (xy 66.04 85.09)
+			(xy 166.37 85.09) (xy 66.04 85.09)
 		)
 		(stroke
 			(width 0)
@@ -3525,7 +3530,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 71.12) (xy 130.81 71.12)
+			(xy 118.11 71.12) (xy 140.97 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3895,6 +3900,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 180.34) (xy 66.04 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ade6124d-d9f9-4de1-8e3d-b8ac4e5cfcd3")
+	)
+	(wire
+		(pts
 			(xy 66.04 177.8) (xy 66.04 180.34)
 		)
 		(stroke
@@ -3945,6 +3960,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 217.17) (xy 78.74 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8cc4bcf-2cd6-4b8f-9a22-46bd048b720d")
+	)
+	(wire
+		(pts
 			(xy 50.8 44.45) (xy 78.74 44.45)
 		)
 		(stroke
@@ -3975,7 +4000,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 73.66) (xy 152.4 73.66)
+			(xy 156.21 73.66) (xy 166.37 73.66)
 		)
 		(stroke
 			(width 0)
@@ -4002,16 +4027,6 @@
 			(type default)
 		)
 		(uuid "c0f1b608-a54f-4688-a4ec-b65be59471cb")
-	)
-	(wire
-		(pts
-			(xy 50.8 217.17) (xy 78.74 217.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c12feba7-3169-4814-8437-7dc8d7370d04")
 	)
 	(wire
 		(pts
@@ -4065,7 +4080,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 73.66) (xy 152.4 85.09)
+			(xy 166.37 73.66) (xy 166.37 85.09)
 		)
 		(stroke
 			(width 0)
@@ -4870,17 +4885,6 @@
 			(justify left)
 		)
 		(uuid "9e54af2e-52e4-4700-8351-6ae123e3e490")
-	)
-	(hierarchical_label "AEN BRD"
-		(shape input)
-		(at 50.8 217.17 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9f339682-2266-4ed7-acd4-d4ade62251e2")
 	)
 	(hierarchical_label "~{IOW}"
 		(shape input)
@@ -7383,9 +7387,9 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS32")
-		(at 138.43 73.66 0)
+		(at 148.59 73.66 0)
 		(unit 1)
-		(body_style 1)
+		(body_style 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7394,7 +7398,7 @@
 		(fields_autoplaced yes)
 		(uuid "a49ddea2-bb40-4bed-a7dd-9718a4d6ec8e")
 		(property "Reference" "U17"
-			(at 138.43 64.77 0)
+			(at 148.59 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7404,7 +7408,7 @@
 			)
 		)
 		(property "Value" "74LS32"
-			(at 138.43 67.31 0)
+			(at 148.59 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7414,7 +7418,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 138.43 73.66 0)
+			(at 148.59 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7425,7 +7429,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS32"
-			(at 138.43 73.66 0)
+			(at 148.59 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7436,7 +7440,7 @@
 			)
 		)
 		(property "Description" "Quad 2-input OR"
-			(at 138.43 73.66 0)
+			(at 148.59 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

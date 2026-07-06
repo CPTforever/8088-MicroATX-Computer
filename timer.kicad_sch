@@ -4199,7 +4199,7 @@
 		(uuid "776b4dd7-f6f7-4f5c-9883-10a81bba90ed")
 	)
 	(hierarchical_label "PIT IRQ"
-		(shape input)
+		(shape output)
 		(at 208.28 106.68 0)
 		(effects
 			(font
@@ -4265,7 +4265,7 @@
 		(uuid "c8a61e50-8e44-4bb0-a4ac-980b1a4d5938")
 	)
 	(hierarchical_label "SPKR OUT"
-		(shape input)
+		(shape output)
 		(at 208.28 140.97 0)
 		(effects
 			(font

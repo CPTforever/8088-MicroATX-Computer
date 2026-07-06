@@ -5143,16 +5143,6 @@
 		)
 		(uuid "15701960-9a74-4e22-9ea1-e2f0a191b569")
 	)
-	(label "ADDR LATCH"
-		(at 105.41 118.11 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "18b9d035-224c-4255-a1a8-f0c8e16ebdf1")
-	)
 	(label "AD7"
 		(at 154.94 113.03 0)
 		(effects
@@ -5333,16 +5323,6 @@
 		)
 		(uuid "6aa0c694-eb7d-4dfa-928a-deb838b6ea27")
 	)
-	(label "ADDR LATCh"
-		(at 105.41 118.11 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6f48e227-bb01-4b56-afa9-f14bda265733")
-	)
 	(label "AD6"
 		(at 154.94 110.49 0)
 		(effects
@@ -5482,6 +5462,16 @@
 			(justify left bottom)
 		)
 		(uuid "b7fdd743-aceb-472c-a721-0c8de1724c3d")
+	)
+	(label "ADDR LATCH"
+		(at 105.41 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c029ad0f-cee8-4d07-a7cd-5c29273bde91")
 	)
 	(label "AD1"
 		(at 154.94 97.79 0)
