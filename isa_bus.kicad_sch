@@ -10718,6 +10718,17 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 317.5 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "63a2532b-ac85-4627-aa84-8a492bdfbd3e")
 		)
@@ -10967,6 +10978,17 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 299.72 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c814a319-589e-49a8-9c42-28e01b6cff7d")
 		)
@@ -11128,6 +11150,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 298.45 356.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 298.45 356.87 0)
 			(hide yes)
 			(show_name no)
@@ -11309,6 +11342,17 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 317.5 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8133c1f6-9653-4fef-bb05-06761504e1ce")
 		)
@@ -11390,6 +11434,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 228.6 288.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 228.6 288.29 0)
 			(hide yes)
 			(show_name no)
@@ -11817,6 +11872,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 232.41 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 232.41 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -12256,6 +12322,17 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 314.96 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "64d5f0c6-d98e-480a-9568-dc3cb97ee1f0")
 		)
@@ -12415,6 +12492,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 224.79 400.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 224.79 400.05 0)
 			(hide yes)
 			(show_name no)
@@ -12698,6 +12786,17 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 300.99 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "21a8767e-2147-4466-9079-4d4f2dac882a")
 		)
@@ -12869,6 +12968,17 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 332.74 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ce773a53-2e7b-4b61-9fec-7dd423d702e0")
 		)
@@ -12952,6 +13062,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 318.77 356.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 318.77 356.87 0)
 			(hide yes)
 			(show_name no)
@@ -13201,6 +13322,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 331.47 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 331.47 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -13538,6 +13670,17 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 335.28 356.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "128022ac-10e8-4d3a-b83b-4a7ba6e2d7b2")
 		)
@@ -13621,6 +13764,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 302.26 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 302.26 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -13868,6 +14022,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 229.87 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 229.87 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -14297,6 +14462,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 336.55 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 336.55 251.46 0)
 			(hide yes)
 			(show_name no)

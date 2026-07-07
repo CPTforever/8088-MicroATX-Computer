@@ -4244,6 +4244,16 @@
 		)
 		(uuid "c9727ef6-1aa3-42d3-83a8-9da3c645ae2a")
 	)
+	(text "~AEN & XA8 & ~XA9"
+		(exclude_from_sim no)
+		(at 92.456 67.818 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "357d3a13-d9d5-4fc6-9052-15c29b100305")
+	)
 	(text "MEMORY MAP"
 		(exclude_from_sim no)
 		(at 68.072 89.154 0)
@@ -4277,6 +4287,16 @@
 		)
 		(uuid "af434747-836b-48b2-b53e-7f53f2d4da9d")
 	)
+	(text "~AEN & ~XA8 & ~XA9"
+		(exclude_from_sim no)
+		(at 92.71 39.878 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c2d93b80-d213-4b14-88b2-4541a26442eb")
+	)
 	(text "IO MAP\n000-01F : DMA\n020-03F : PIC\n040-05F : PIT\n060-07F : KBRD\n080-09F : DMA REG\n0A0-0BF : FLAG\n0CF-0DF : PPI\n0E0-0FF : UART\n100-1FF : RTC\n200-3FF : ISA BUS I/O"
 		(exclude_from_sim no)
 		(at 30.734 29.21 0)
@@ -4303,7 +4323,7 @@
 		(at 105.41 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "455b042b-dfd1-4d2d-aaf0-a53d55b1e580")
+		(uuid "0402e9d9-806e-4af9-a34b-9216088ece29")
 	)
 	(junction
 		(at 139.7 111.76)
@@ -4801,7 +4821,7 @@
 	)
 	(bus
 		(pts
-			(xy 88.9 25.4) (xy 109.22 25.4)
+			(xy 93.98 25.4) (xy 109.22 25.4)
 		)
 		(stroke
 			(width 0)
@@ -4981,7 +5001,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 44.45) (xy 105.41 44.45)
+			(xy 93.98 44.45) (xy 105.41 44.45)
 		)
 		(stroke
 			(width 0)
@@ -5359,7 +5379,7 @@
 		)
 		(uuid "54d4fe5a-18c3-4786-8e1b-5b38fbe7e4b8")
 	)
-	(label "XA[19..0]"
+	(label "XA[9..0]"
 		(at 97.79 25.4 0)
 		(effects
 			(font
@@ -5551,7 +5571,7 @@
 	)
 	(hierarchical_label "XA[9..0]"
 		(shape input)
-		(at 88.9 25.4 180)
+		(at 93.98 25.4 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5573,7 +5593,7 @@
 	)
 	(hierarchical_label "~{AEN}"
 		(shape input)
-		(at 97.79 44.45 180)
+		(at 93.98 44.45 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5804,7 +5824,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 26.67 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -5827,6 +5847,17 @@
 			)
 		)
 		(property "Description" "8-input NAND"
+			(at 26.67 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 26.67 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -6044,6 +6075,17 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 107.95 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f789af21-79b4-4d8a-9222-8968cda26c6e")
 		)
@@ -6205,6 +6247,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 80.01 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 80.01 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -6574,7 +6627,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 180.34 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -6608,6 +6661,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 180.34 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 180.34 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -6703,7 +6767,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket"
 			(at 133.35 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -6737,6 +6801,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 133.35 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 133.35 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -6913,7 +6988,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 160.02 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -6936,6 +7011,17 @@
 			)
 		)
 		(property "Description" "8-input NAND"
+			(at 160.02 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 160.02 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -7029,7 +7115,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 180.34 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -7063,6 +7149,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 180.34 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 180.34 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -7202,6 +7299,17 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 93.98 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4eae74fc-296c-4a8d-8c38-91c83f229379")
 		)
@@ -7329,7 +7437,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket"
 			(at 113.03 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -7363,6 +7471,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 113.03 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 113.03 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -7462,7 +7581,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 142.24 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -7496,6 +7615,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 142.24 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 142.24 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -7745,7 +7875,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 170.18 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -7779,6 +7909,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 170.18 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 170.18 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -7872,7 +8013,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 160.02 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -7895,6 +8036,17 @@
 			)
 		)
 		(property "Description" "Dual 4-input NAND"
+			(at 160.02 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 160.02 151.13 0)
 			(hide yes)
 			(show_name no)

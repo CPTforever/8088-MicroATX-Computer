@@ -288,6 +288,12 @@
 		(uuid "4a37ce15-b67a-436e-a9d0-470942ed5af3")
 	)
 	(junction
+		(at 128.27 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4cd37510-4ceb-4649-868c-3b01a9c6aa15")
+	)
+	(junction
 		(at 219.71 309.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -412,12 +418,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e62a2104-dc7f-48d2-80d9-9bedeb0b67e3")
-	)
-	(junction
-		(at 128.27 163.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e697498b-9647-4984-9c06-74df863b039a")
 	)
 	(junction
 		(at 135.89 57.15)
@@ -1088,7 +1088,7 @@
 	)
 	(bus
 		(pts
-			(xy 128.27 163.83) (xy 100.33 163.83)
+			(xy 128.27 162.56) (xy 100.33 162.56)
 		)
 		(stroke
 			(width 0)
@@ -1138,7 +1138,7 @@
 	)
 	(bus
 		(pts
-			(xy 100.33 156.21) (xy 100.33 163.83)
+			(xy 100.33 156.21) (xy 100.33 162.56)
 		)
 		(stroke
 			(width 0)
@@ -2385,6 +2385,16 @@
 			(type default)
 		)
 		(uuid "6d7c4d20-379a-431d-88b0-409828f312e8")
+	)
+	(bus
+		(pts
+			(xy 128.27 162.56) (xy 128.27 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d820d70-e8fa-41d3-ac8c-2708d9208ec1")
 	)
 	(bus
 		(pts
@@ -3656,16 +3666,6 @@
 		)
 		(uuid "d33824cc-5c36-428c-b485-96d7494edf18")
 	)
-	(bus
-		(pts
-			(xy 128.27 163.83) (xy 128.27 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3850a49-2c8a-4efc-8243-bdf43ddd6b34")
-	)
 	(wire
 		(pts
 			(xy 195.58 260.35) (xy 224.79 260.35)
@@ -3788,7 +3788,7 @@
 	)
 	(bus
 		(pts
-			(xy 128.27 100.33) (xy 128.27 163.83)
+			(xy 128.27 100.33) (xy 128.27 162.56)
 		)
 		(stroke
 			(width 0)
@@ -4823,6 +4823,17 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 21.59 398.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "retroslop"
 				(path "/c091a5a9-cc18-4de7-90b1-5162a376bd78"
@@ -4889,6 +4900,17 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 21.59 378.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 21.59 378.46 0)
 			(hide yes)
 			(show_name no)
@@ -4975,6 +4997,17 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 21.59 388.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "retroslop"
 				(path "/c091a5a9-cc18-4de7-90b1-5162a376bd78"
@@ -5041,6 +5074,17 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 21.59 393.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 21.59 393.7 0)
 			(hide yes)
 			(show_name no)
@@ -5127,6 +5171,17 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 21.59 358.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "retroslop"
 				(path "/c091a5a9-cc18-4de7-90b1-5162a376bd78"
@@ -5193,6 +5248,17 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 21.59 383.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 21.59 383.54 0)
 			(hide yes)
 			(show_name no)
@@ -5279,6 +5345,17 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 21.59 363.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "retroslop"
 				(path "/c091a5a9-cc18-4de7-90b1-5162a376bd78"
@@ -5355,6 +5432,17 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 21.59 373.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "retroslop"
 				(path "/c091a5a9-cc18-4de7-90b1-5162a376bd78"
@@ -5421,6 +5509,17 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 21.59 368.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 21.59 368.3 0)
 			(hide yes)
 			(show_name no)

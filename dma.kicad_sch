@@ -7702,6 +7702,17 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 353.06 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c45a63fe-306d-4d99-8529-e40321a0848e")
 		)
@@ -7751,7 +7762,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket"
 			(at 265.43 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -7785,6 +7796,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 265.43 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 265.43 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -8164,6 +8186,17 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 184.15 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "901381cf-3922-4d86-8b7e-8b1b059e51a6")
 		)
@@ -8291,7 +8324,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-20_W7.62mm"
+		(property "Footprint" "Package_DIP:DIP-20_W7.62mm_Socket"
 			(at 265.43 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -8325,6 +8358,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 265.43 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 265.43 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -8560,6 +8604,17 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 367.03 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "af3ad215-f3c2-4008-8925-d6d4139f9b6c")
 		)
@@ -8653,6 +8708,17 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 199.39 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a99b11e3-24de-4115-aaa1-ecc78294a3ad")
 		)
@@ -8725,6 +8791,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 151.13 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 151.13 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -8986,7 +9063,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 251.46 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -9020,6 +9097,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 251.46 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 251.46 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -9159,6 +9247,17 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 394.97 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7a84ab87-58f3-40af-a1af-6efe5f1cebd2")
 		)
@@ -9242,6 +9341,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 325.12 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 325.12 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -9413,6 +9523,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 339.09 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 339.09 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -9782,7 +9903,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 179.07 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -9805,6 +9926,17 @@
 			)
 		)
 		(property "Description" "Quad 2-input OR"
+			(at 179.07 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 179.07 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -9976,7 +10108,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 251.46 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -10010,6 +10142,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 251.46 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 251.46 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -10305,6 +10448,17 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 381 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d52f4f95-c151-45ab-989b-5c611eef0472")
 		)
@@ -10354,7 +10508,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
 			(at 393.7 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -10388,6 +10542,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 393.7 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 393.7 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -10639,7 +10804,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-20_W7.62mm"
+		(property "Footprint" "Package_DIP:DIP-20_W7.62mm_Socket"
 			(at 265.43 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -10673,6 +10838,17 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 265.43 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 265.43 41.91 0)
 			(hide yes)
 			(show_name no)
