@@ -2788,8 +2788,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7c03907a-77f2-4de9-a54f-80a057440695")
-		(property "Reference" "#PWR02"
+		(uuid "a5d21bae-dd26-42ef-86e6-ce07d899396e")
+		(property "Reference" "#PWR0283"
 			(at 59.69 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -2800,7 +2800,7 @@
 				)
 			)
 		)
-		(property "Value" "VCC"
+		(property "Value" "+5V"
 			(at 59.69 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2844,12 +2844,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "fe6d80f0-e8bb-4176-8cc7-28dcfc9c58b9")
+			(uuid "a6667d74-d182-4260-8190-25ffe14f9e18")
 		)
 		(instances
 			(project "retroslop"
 				(path "/c091a5a9-cc18-4de7-90b1-5162a376bd78/94e99637-776f-46be-ad0c-ed4362e4c890"
-					(reference "#PWR02")
+					(reference "#PWR0283")
 					(unit 1)
 				)
 			)
