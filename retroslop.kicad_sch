@@ -139,7 +139,7 @@
 	)
 	(text "IO MAP\n000-01F : DMA\n020-03F : PIC\n040-05F : PIT\n060-07F : KBRD\n080-09F : DMA REG\n0A0-0BF : FLAG\n0CF-0DF : PPI\n0E0-0FF : UART\n100-1FF : RTC"
 		(exclude_from_sim no)
-		(at 240.538 91.694 0)
+		(at 248.158 125.476 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1428,16 +1428,6 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 349.25) (xy 274.32 349.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a92a3eb-52e9-4fb9-8778-5c81f37af342")
-	)
-	(wire
-		(pts
 			(xy 102.87 102.87) (xy 102.87 165.1)
 		)
 		(stroke
@@ -1928,6 +1918,16 @@
 	)
 	(bus
 		(pts
+			(xy 266.7 349.25) (xy 274.32 349.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "413dd2bf-392d-424d-8695-68aed94646ee")
+	)
+	(bus
+		(pts
 			(xy 208.28 241.3) (xy 217.17 241.3)
 		)
 		(stroke
@@ -2016,6 +2016,16 @@
 		)
 		(uuid "484a43b5-7a4a-4ab9-94be-599134262b15")
 	)
+	(bus
+		(pts
+			(xy 274.32 349.25) (xy 274.32 279.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48c26f53-cb31-46c8-9e7b-64e6a42f5061")
+	)
 	(wire
 		(pts
 			(xy 232.41 294.64) (xy 240.03 294.64)
@@ -2055,16 +2065,6 @@
 			(type default)
 		)
 		(uuid "4c01d7b5-84af-457d-9225-4b5606584745")
-	)
-	(wire
-		(pts
-			(xy 274.32 349.25) (xy 274.32 279.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c04a537-adca-4b28-abed-70df7d5f616d")
 	)
 	(wire
 		(pts
@@ -2335,16 +2335,6 @@
 			(type default)
 		)
 		(uuid "6985ecf2-5663-4127-9ede-2b639dee33ee")
-	)
-	(wire
-		(pts
-			(xy 274.32 279.4) (xy 266.7 279.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69a3ae51-2923-4edf-9322-6c6b8543fd06")
 	)
 	(bus
 		(pts
@@ -3225,6 +3215,16 @@
 			(type default)
 		)
 		(uuid "ac12c19e-87fb-4c98-a618-170225dfcbf9")
+	)
+	(bus
+		(pts
+			(xy 274.32 279.4) (xy 266.7 279.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac6bdb05-de8c-4f7b-a06f-a03d2e9a2d69")
 	)
 	(bus
 		(pts
@@ -5932,7 +5932,7 @@
 				(justify right)
 			)
 		)
-		(pin "PIT OUT" input
+		(pin "PIT OUT" output
 			(at 266.7 326.39 0)
 			(uuid "74c1b6bc-24cc-44c3-b048-288ed941f6cb")
 			(effects
@@ -6264,7 +6264,7 @@
 				(justify left)
 			)
 		)
-		(pin "PPI_O[23..0]" input
+		(pin "PPI_O" bidirectional
 			(at 266.7 279.4 0)
 			(uuid "bd69bd85-2acf-4fa0-bab2-6d63ba494063")
 			(effects
@@ -6274,7 +6274,7 @@
 				(justify right)
 			)
 		)
-		(pin "XA[19..0]" input
+		(pin "XA[9..0]" input
 			(at 240.03 274.32 180)
 			(uuid "af2720a2-7b6e-49c6-8647-e9f92cdd1978")
 			(effects
@@ -6566,7 +6566,7 @@
 				(justify left)
 			)
 		)
-		(pin "XA[9..0]" input
+		(pin "XA[9..0]" tri_state
 			(at 195.58 72.39 0)
 			(uuid "c7156a4e-b5da-4a9f-8a2e-242ccbec806f")
 			(effects
@@ -6812,7 +6812,7 @@
 				(justify left)
 			)
 		)
-		(pin "XD[7..0]" input
+		(pin "XD[7..0]" tri_state
 			(at 195.58 118.11 0)
 			(uuid "0dc791dd-94d7-4727-b1cd-6b1aa1a41a70")
 			(effects
@@ -6822,7 +6822,7 @@
 				(justify right)
 			)
 		)
-		(pin "XA[9..0]" input
+		(pin "XA[9..0]" tri_state
 			(at 195.58 115.57 0)
 			(uuid "0208d82a-dd3f-4f53-9908-20c75dffd56f")
 			(effects
@@ -7054,7 +7054,7 @@
 				(justify left)
 			)
 		)
-		(pin "ENABLE IO CK" input
+		(pin "ENABLE IO CK" output
 			(at 266.7 241.3 0)
 			(uuid "a9005c72-76b9-445f-ace0-00ee7100c8f8")
 			(effects
@@ -7074,7 +7074,7 @@
 				(justify right)
 			)
 		)
-		(pin "ALLOW NMI" input
+		(pin "ALLOW NMI" output
 			(at 266.7 236.22 0)
 			(uuid "bfa4aa3f-6bf2-4181-b586-434bd539affb")
 			(effects
@@ -7386,7 +7386,7 @@
 				(justify left top)
 			)
 		)
-		(pin "PPI_O[23:0]" input
+		(pin "PPI_O" input
 			(at 266.7 349.25 0)
 			(uuid "492a32e7-fe37-42c1-8a39-afa76f0409ef")
 			(effects
@@ -7406,7 +7406,7 @@
 				(justify right)
 			)
 		)
-		(pin "PIT GATE" input
+		(pin "PIT GATE" output
 			(at 266.7 344.17 0)
 			(uuid "dbe3cd62-9e2d-4064-9064-35d0246abdb3")
 			(effects
@@ -7492,7 +7492,7 @@
 				(justify right)
 			)
 		)
-		(pin "RTC IRQ" input
+		(pin "RTC IRQ" output
 			(at 195.58 290.83 0)
 			(uuid "bd18a3d3-3d3e-4ac3-8ad6-dfc3366d5665")
 			(effects

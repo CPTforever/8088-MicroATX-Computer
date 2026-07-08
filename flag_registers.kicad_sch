@@ -3510,7 +3510,7 @@
 		(uuid "5cbf841d-e538-4021-822b-9551960eff67")
 	)
 	(hierarchical_label "ALLOW NMI"
-		(shape input)
+		(shape output)
 		(at 205.74 68.58 0)
 		(effects
 			(font
@@ -3532,7 +3532,7 @@
 		(uuid "6e3cee14-ef51-418e-aaaa-511c3889072f")
 	)
 	(hierarchical_label "ENABLE IO CK"
-		(shape input)
+		(shape output)
 		(at 205.74 66.04 0)
 		(effects
 			(font

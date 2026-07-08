@@ -5570,7 +5570,7 @@
 		(uuid "b157ee53-3721-4b55-aafe-dc2e1c47f36d")
 	)
 	(hierarchical_label "XA[9..0]"
-		(shape input)
+		(shape tri_state)
 		(at 93.98 25.4 180)
 		(effects
 			(font

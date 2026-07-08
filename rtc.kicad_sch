@@ -5670,7 +5670,7 @@
 		(uuid "caacd63c-706c-4074-96bd-1152709cea8f")
 	)
 	(hierarchical_label "RTC IRQ"
-		(shape input)
+		(shape output)
 		(at 254 102.87 0)
 		(effects
 			(font

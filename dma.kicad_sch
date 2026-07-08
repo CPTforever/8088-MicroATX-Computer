@@ -7193,7 +7193,7 @@
 		)
 	)
 	(hierarchical_label "XD[7..0]"
-		(shape input)
+		(shape tri_state)
 		(at 76.2 107.95 180)
 		(effects
 			(font
@@ -7336,7 +7336,7 @@
 		(uuid "ae121ac9-5c2e-44fc-8330-72ab7b0b4245")
 	)
 	(hierarchical_label "XA[9..0]"
-		(shape input)
+		(shape tri_state)
 		(at 76.2 38.1 180)
 		(effects
 			(font

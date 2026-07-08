@@ -1909,16 +1909,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 85.09) (xy 99.06 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17e3a33a-006e-463b-a6f4-d41add5af848")
-	)
-	(wire
-		(pts
 			(xy 87.63 62.23) (xy 99.06 62.23)
 		)
 		(stroke
@@ -1959,6 +1949,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 95.25) (xy 114.3 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "271df60e-7a54-4ef6-bba1-674089e00dd9")
+	)
+	(wire
+		(pts
 			(xy 87.63 69.85) (xy 99.06 69.85)
 		)
 		(stroke
@@ -1986,6 +1986,16 @@
 			(type default)
 		)
 		(uuid "353509a8-313f-4931-a054-ce5736f7abcb")
+	)
+	(wire
+		(pts
+			(xy 93.98 92.71) (xy 93.98 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dd54491-7bc6-4ea6-b79d-f4fcbc500f07")
 	)
 	(wire
 		(pts
@@ -2049,23 +2059,13 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 95.25) (xy 90.17 95.25)
+			(xy 64.77 95.25) (xy 114.3 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8c60a39c-af67-4287-8e6b-8afbc4a7480e")
-	)
-	(wire
-		(pts
-			(xy 64.77 92.71) (xy 115.57 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99e4420c-a491-4917-a9fd-da1e57653e98")
 	)
 	(wire
 		(pts
@@ -2089,16 +2089,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 95.25) (xy 90.17 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa9e1ad7-3ef2-4808-a26b-18a6cfdb2867")
-	)
-	(wire
-		(pts
 			(xy 78.74 52.07) (xy 99.06 52.07)
 		)
 		(stroke
@@ -2116,16 +2106,6 @@
 			(type default)
 		)
 		(uuid "b1c1c11d-0227-41ce-aca2-c37e4d09fa01")
-	)
-	(wire
-		(pts
-			(xy 115.57 85.09) (xy 111.76 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3381432-4b7b-46b4-9882-aa0a98038f7b")
 	)
 	(wire
 		(pts
@@ -2166,6 +2146,16 @@
 			(type default)
 		)
 		(uuid "c95454e7-9c91-40dc-a9b4-ec22aa2793d8")
+	)
+	(wire
+		(pts
+			(xy 111.76 85.09) (xy 114.3 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfdc8945-2158-48d9-a961-35c5e6a82d75")
 	)
 	(wire
 		(pts
@@ -2229,6 +2219,26 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 92.71) (xy 93.98 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5e4d139-a07a-4c89-8a0b-d30d47f816f5")
+	)
+	(wire
+		(pts
+			(xy 93.98 85.09) (xy 99.06 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edb436e5-4b9a-4597-8907-43bd7307d6e6")
+	)
+	(wire
+		(pts
 			(xy 123.19 80.01) (xy 111.76 80.01)
 		)
 		(stroke
@@ -2236,16 +2246,6 @@
 			(type default)
 		)
 		(uuid "efcf3f7e-5a8c-4043-8445-b3b4860fa775")
-	)
-	(wire
-		(pts
-			(xy 115.57 92.71) (xy 115.57 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff26e7a9-5ba6-436b-a7ea-031634249071")
 	)
 	(label "PB5"
 		(at 118.11 67.31 0)
@@ -2497,8 +2497,8 @@
 		)
 		(uuid "fb539c79-207c-4867-a3ba-e6bcb1474228")
 	)
-	(hierarchical_label "PIT OUT"
-		(shape input)
+	(hierarchical_label "PIT GATE"
+		(shape output)
 		(at 44.45 95.25 180)
 		(effects
 			(font
@@ -2506,9 +2506,9 @@
 			)
 			(justify right)
 		)
-		(uuid "3e31f36c-b235-43b7-8fe8-67f85ff03e68")
+		(uuid "12f31459-078f-4c0d-8fad-aa7f30fb0fbf")
 	)
-	(hierarchical_label "PPI_O[23:0]"
+	(hierarchical_label "PPI_O"
 		(shape input)
 		(at 49.53 34.29 180)
 		(effects
@@ -2519,7 +2519,7 @@
 		)
 		(uuid "73af42a1-3e48-4a48-b86f-dc091ca7dc60")
 	)
-	(hierarchical_label "PIT GATE"
+	(hierarchical_label "PIT OUT"
 		(shape input)
 		(at 44.45 92.71 180)
 		(effects
@@ -2528,7 +2528,7 @@
 			)
 			(justify right)
 		)
-		(uuid "7eec573d-ce2b-4e59-9bd9-7a5429d6e99f")
+		(uuid "910dabe4-ad2d-498d-8b17-2ac561b0d927")
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x14_Odd_Even")

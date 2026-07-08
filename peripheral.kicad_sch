@@ -3436,7 +3436,7 @@
 		)
 		(uuid "45a4eccb-3afe-418b-b522-43289153cde3")
 	)
-	(label "XA[19..0]"
+	(label "XA[9..0]"
 		(at 34.29 48.26 0)
 		(effects
 			(font
@@ -3717,7 +3717,7 @@
 		)
 		(uuid "246dd174-fce2-463b-a3e4-26d13d0fb945")
 	)
-	(hierarchical_label "XA[19..0]"
+	(hierarchical_label "XA[9..0]"
 		(shape input)
 		(at 27.94 48.26 180)
 		(effects
@@ -3750,8 +3750,8 @@
 		)
 		(uuid "6003c288-559c-45ad-a039-5945e177b395")
 	)
-	(hierarchical_label "PPI_O[23..0]"
-		(shape input)
+	(hierarchical_label "PPI_O"
+		(shape bidirectional)
 		(at 251.46 30.48 0)
 		(effects
 			(font
