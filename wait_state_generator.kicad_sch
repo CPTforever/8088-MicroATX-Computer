@@ -7073,16 +7073,6 @@
 		)
 		(uuid "6e0a105d-5128-4ae0-9eca-a5953e4ad571")
 	)
-	(text "Fuck this thing"
-		(exclude_from_sim no)
-		(at 22.352 14.478 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "74ba70b6-e4a3-4d3a-9614-baa60bc8e8c3")
-	)
 	(text "Basically if the CPU is in IRQ request mode,\nnot locking the bus, the DMA controller is \nrequesting the bus. "
 		(exclude_from_sim no)
 		(at 242.57 130.81 0)
