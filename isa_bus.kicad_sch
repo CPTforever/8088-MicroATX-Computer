@@ -9768,16 +9768,16 @@
 		)
 		(uuid "121a29e0-f8d7-4793-82c6-c270f74530a9")
 	)
-	(hierarchical_label "RESET DRV"
+	(hierarchical_label "RESET"
 		(shape input)
-		(at 147.32 140.97 180)
+		(at 144.78 31.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "19e2014c-822f-4d0b-b0e9-002e8d4e51c8")
+		(uuid "14b7c7b8-b883-4ac4-b8b6-7be35d156581")
 	)
 	(hierarchical_label "I{slash}O CH RDY"
 		(shape output)
@@ -9834,18 +9834,7 @@
 		)
 		(uuid "3a55b85b-37e8-4da2-b56a-ba9fab4b3c4c")
 	)
-	(hierarchical_label "RESET DRV"
-		(shape input)
-		(at 144.78 31.75 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3ec7fd34-dc90-4644-a983-11af4d4126e7")
-	)
-	(hierarchical_label "RESET DRV"
+	(hierarchical_label "RESET"
 		(shape input)
 		(at 143.51 252.73 180)
 		(effects
@@ -9877,17 +9866,6 @@
 			(justify right)
 		)
 		(uuid "466c059d-26f1-4c89-9afd-2a05ab2d4e77")
-	)
-	(hierarchical_label "RESET DRV"
-		(shape input)
-		(at 139.7 364.49 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4803673b-4b4b-4ca3-b55c-92104856f12f")
 	)
 	(hierarchical_label "~{DACK[3..0]}"
 		(shape input)
@@ -10142,6 +10120,17 @@
 		)
 		(uuid "af3df6a2-a9bc-46d1-8a87-b2d72d4b7d3b")
 	)
+	(hierarchical_label "RESET"
+		(shape input)
+		(at 147.32 140.97 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "afe29217-453f-46d7-a09a-7c9f633b442d")
+	)
 	(hierarchical_label "~{IOW}"
 		(shape input)
 		(at 138.43 392.43 180)
@@ -10339,6 +10328,17 @@
 			(justify left)
 		)
 		(uuid "e0d878e4-c258-4990-9c16-34739b6ccd13")
+	)
+	(hierarchical_label "RESET"
+		(shape input)
+		(at 139.7 364.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e3242c17-c149-4540-a7b2-27751f5b7544")
 	)
 	(hierarchical_label "~{HRQ I{slash}O CH}"
 		(shape passive)

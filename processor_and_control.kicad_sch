@@ -6064,12 +6064,6 @@
 		(uuid "05c0e3df-43fe-4ab8-8026-2ccfc35e67e2")
 	)
 	(junction
-		(at 153.67 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "085325fa-4e41-4273-b3b2-75d3e4a9db1b")
-	)
-	(junction
 		(at 190.5 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6218,6 +6212,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "acc6b331-631f-410d-b148-69511013698e")
+	)
+	(junction
+		(at 153.67 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad0a738c-a65c-4dea-bf02-818c154fb73c")
 	)
 	(junction
 		(at 113.03 60.96)
@@ -9636,7 +9636,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 35.56) (xy 139.7 35.56)
+			(xy 110.49 35.56) (xy 140.97 35.56)
 		)
 		(stroke
 			(width 0)
@@ -10306,7 +10306,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 35.56) (xy 153.67 35.56)
+			(xy 148.59 35.56) (xy 153.67 35.56)
 		)
 		(stroke
 			(width 0)
@@ -10396,7 +10396,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 31.75) (xy 200.66 78.74)
+			(xy 200.66 27.94) (xy 200.66 78.74)
 		)
 		(stroke
 			(width 0)
@@ -12221,7 +12221,7 @@
 		)
 		(uuid "058384a4-2036-484e-9827-feb7bd0c9a82")
 	)
-	(hierarchical_label "RESET"
+	(hierarchical_label "RESET BRD"
 		(shape output)
 		(at 129.54 31.75 0)
 		(effects
@@ -13004,7 +13004,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "33 Ω"
 			(at 438.15 318.77 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13268,6 +13268,84 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 292.1 57.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d48df8c-17c7-4bd1-b2d0-e4c671437303")
+		(property "Reference" "#PWR0287"
+			(at 292.1 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 292.1 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 292.1 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 292.1 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 292.1 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "93015140-fd64-4ec4-aff8-092bdbef65f6")
+		)
+		(instances
+			(project "retroslop"
+				(path "/c091a5a9-cc18-4de7-90b1-5162a376bd78/d37ce965-1a13-4ca0-999f-d0d6724d9f10"
+					(reference "#PWR0287")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 382.27 125.73 0)
 		(unit 1)
 		(body_style 1)
@@ -13443,6 +13521,84 @@
 			(project "retroslop"
 				(path "/c091a5a9-cc18-4de7-90b1-5162a376bd78/d37ce965-1a13-4ca0-999f-d0d6724d9f10"
 					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 292.1 49.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28ac203f-ad63-4a29-9bc3-783c6fed7c69")
+		(property "Reference" "#PWR0286"
+			(at 292.1 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 292.1 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 292.1 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 292.1 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 292.1 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "287323b7-40ad-4a64-889a-b39cc5e93b53")
+		)
+		(instances
+			(project "retroslop"
+				(path "/c091a5a9-cc18-4de7-90b1-5162a376bd78/d37ce965-1a13-4ca0-999f-d0d6724d9f10"
+					(reference "#PWR0286")
 					(unit 1)
 				)
 			)
@@ -13787,6 +13943,110 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 292.1 147.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35d75d13-928a-4bc4-8725-8cef287c8ca5")
+		(property "Reference" "C47"
+			(at 295.91 146.0499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1 μF"
+			(at 295.91 148.5899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+			(at 293.0652 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 292.1 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 292.1 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 292.1 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 292.1 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "500b1951-6906-4089-87cc-dc1984205b53")
+		)
+		(pin "1"
+			(uuid "4fc7c053-49d9-4ed2-9a0e-7dca2fc5f6d1")
+		)
+		(instances
+			(project "retroslop"
+				(path "/c091a5a9-cc18-4de7-90b1-5162a376bd78/d37ce965-1a13-4ca0-999f-d0d6724d9f10"
+					(reference "C47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 469.9 267.97 0)
 		(unit 1)
@@ -13963,7 +14223,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "33 Ω"
 			(at 447.04 328.93 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14297,6 +14557,84 @@
 			(project "retroslop"
 				(path "/c091a5a9-cc18-4de7-90b1-5162a376bd78/d37ce965-1a13-4ca0-999f-d0d6724d9f10"
 					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 292.1 151.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c7d4068-ba1a-4fec-8e45-caa3cb0471f0")
+		(property "Reference" "#PWR0285"
+			(at 292.1 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 292.1 156.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 292.1 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 292.1 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 292.1 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "50e54b82-4bd2-496d-8c17-b63a9dfd45b4")
+		)
+		(instances
+			(project "retroslop"
+				(path "/c091a5a9-cc18-4de7-90b1-5162a376bd78/d37ce965-1a13-4ca0-999f-d0d6724d9f10"
+					(reference "#PWR0285")
 					(unit 1)
 				)
 			)
@@ -15569,7 +15907,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "33 Ω"
 			(at 447.04 318.77 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16093,7 +16431,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 200.66 31.75 0)
+		(at 200.66 27.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16104,7 +16442,7 @@
 		(fields_autoplaced yes)
 		(uuid "8241c5c2-6dc4-48ce-9847-8234ef86a2fd")
 		(property "Reference" "#PWR041"
-			(at 200.66 35.56 0)
+			(at 200.66 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16115,7 +16453,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 200.66 26.67 0)
+			(at 200.66 22.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16125,7 +16463,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 31.75 0)
+			(at 200.66 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16136,7 +16474,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 31.75 0)
+			(at 200.66 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16147,7 +16485,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 200.66 31.75 0)
+			(at 200.66 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16190,7 +16528,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "33 Ω"
 			(at 149.86 57.15 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17361,7 +17699,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "33 Ω"
 			(at 411.48 341.63 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18982,7 +19320,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 143.51 35.56 90)
+		(at 144.78 35.56 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18993,7 +19331,7 @@
 		(fields_autoplaced yes)
 		(uuid "c6213886-ecfd-460e-9516-07cbe4695f3a")
 		(property "Reference" "R50"
-			(at 143.51 29.21 90)
+			(at 144.78 29.21 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19002,8 +19340,8 @@
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 143.51 31.75 90)
+		(property "Value" "33 Ω"
+			(at 144.78 31.75 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19013,7 +19351,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 143.51 37.338 90)
+			(at 144.78 37.338 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19024,7 +19362,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 35.56 0)
+			(at 144.78 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19035,7 +19373,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 143.51 35.56 0)
+			(at 144.78 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19046,7 +19384,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 143.51 35.56 0)
+			(at 144.78 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19057,7 +19395,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 143.51 35.56 90)
+			(at 144.78 35.56 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19104,7 +19442,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "33 Ω"
 			(at 438.15 308.61 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19923,6 +20261,110 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 292.1 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d610f2c4-0bfc-45b1-86a9-00255eccc74e")
+		(property "Reference" "C48"
+			(at 295.91 52.0699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1 μF"
+			(at 295.91 54.6099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+			(at 293.0652 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 292.1 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 292.1 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 292.1 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 292.1 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "fba89ffb-e02c-4074-af00-f1e78708c972")
+		)
+		(pin "1"
+			(uuid "9eba9a6f-40db-46c4-9a7b-3c2ea0512b4d")
+		)
+		(instances
+			(project "retroslop"
+				(path "/c091a5a9-cc18-4de7-90b1-5162a376bd78/d37ce965-1a13-4ca0-999f-d0d6724d9f10"
+					(reference "C48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 382.27 138.43 0)
 		(unit 1)
@@ -20022,7 +20464,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "33 Ω"
 			(at 149.86 46.99 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20460,6 +20902,84 @@
 			(project "retroslop"
 				(path "/c091a5a9-cc18-4de7-90b1-5162a376bd78/d37ce965-1a13-4ca0-999f-d0d6724d9f10"
 					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 292.1 143.51 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e76dd7a3-95f4-4af3-bb06-94b09a4e2f1a")
+		(property "Reference" "#PWR0284"
+			(at 292.1 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 292.1 138.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 292.1 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 292.1 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 292.1 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fc9c9132-b912-4c1d-a296-557ef039fe00")
+		)
+		(instances
+			(project "retroslop"
+				(path "/c091a5a9-cc18-4de7-90b1-5162a376bd78/d37ce965-1a13-4ca0-999f-d0d6724d9f10"
+					(reference "#PWR0284")
 					(unit 1)
 				)
 			)

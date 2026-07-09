@@ -3003,7 +3003,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 72.39) (xy 160.02 72.39)
+			(xy 151.13 72.39) (xy 160.02 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3333,7 +3333,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 64.77) (xy 160.02 64.77)
+			(xy 151.13 64.77) (xy 160.02 64.77)
 		)
 		(stroke
 			(width 0)
@@ -4863,7 +4863,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 153.67 68.58 0)
+		(at 151.13 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4874,7 +4874,7 @@
 		(fields_autoplaced yes)
 		(uuid "748a9a30-53d6-4784-805e-5b34b910d759")
 		(property "Reference" "C52"
-			(at 157.48 67.3099 0)
+			(at 154.94 67.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4885,7 +4885,7 @@
 			)
 		)
 		(property "Value" "1 μF"
-			(at 157.48 69.8499 0)
+			(at 154.94 69.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4896,7 +4896,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
-			(at 154.6352 72.39 0)
+			(at 152.0952 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4907,7 +4907,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 68.58 0)
+			(at 151.13 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4918,7 +4918,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 153.67 68.58 0)
+			(at 151.13 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4929,7 +4929,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 153.67 68.58 0)
+			(at 151.13 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4940,7 +4940,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 153.67 68.58 0)
+			(at 151.13 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

@@ -9120,7 +9120,7 @@
 		)
 		(uuid "17f4ef87-c0c4-43b4-b39a-b7c7d759e79a")
 	)
-	(hierarchical_label "RESET"
+	(hierarchical_label "RESET BRD"
 		(shape input)
 		(at 38.1 193.04 180)
 		(effects
