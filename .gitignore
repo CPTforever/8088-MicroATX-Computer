@@ -44,3 +44,6 @@ fp-info-cache
 
 # Zip folder
 *.zip
+
+*.bin
+*.lst
