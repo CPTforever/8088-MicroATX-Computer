@@ -13,7 +13,7 @@ Insert memory map
 Insert port map
 
 # Rev 1 Mistakes
-UART Controller uses system clock instead of external crystal, meaning standard buad times are
+UART Controller uses system clock instead of external crystal, meaning standard baud rates are
 only achievable when system clock uses a UART compatible crystal
 
 PIT Gate 1 does not have a pull up resistor, meaning gate is floating when the external io pin is not connected. (This can be bodged with a radial resistor at least.)
