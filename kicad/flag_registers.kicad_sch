@@ -2346,7 +2346,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "FLAG REG\nBIT 0: BANK ADDRESS 0 (R/W)\nBIT 1: BANK ADDRESS 1 (R/W)\nBIT 2: SPKR DATA (R/W)\nBIT 3: PIT GATE SPK (R/W)\nBIT 4: PIT 2 OUT (R)\nBIT 5: I/O CH CK (R)\nBIT 6: Disable IO CK (R/W)\nBIT 7: Enable NMI   (R/W)"
+	(text "FLAG REG\nBIT 0: BANK ADDRESS 0 (R/W)\nBIT 1: BANK ADDRESS 1 (R/W)\nBIT 2: SPKR EN (R/W)\nBIT 3: SPKR GATE (R/W)\nBIT 4: PIT 2 OUT (R)\nBIT 5: I/O CH CK (R)\nBIT 6: Disable IO CK (R/W)\nBIT 7: Enable NMI   (R/W)"
 		(exclude_from_sim no)
 		(at 16.51 24.638 0)
 		(effects

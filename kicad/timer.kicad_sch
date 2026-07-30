@@ -3352,6 +3352,12 @@
 		(uuid "4c207956-0af9-4c6f-9afe-e36a18fdfa8c")
 	)
 	(junction
+		(at 125.095 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "554214bf-e5c4-4984-a4d8-4c725fe0c3f7")
+	)
+	(junction
 		(at 97.79 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3386,6 +3392,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "827abc20-abe8-4d3a-9fe7-11af6391b9d1")
+	)
+	(junction
+		(at 111.76 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6654c18-e85b-4911-8e9e-5a7aee06f8e0")
 	)
 	(junction
 		(at 245.11 85.09)
@@ -3689,6 +3701,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.095 100.33) (xy 125.095 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a008273-ff3c-4343-a0b8-315a08d53418")
+	)
+	(wire
+		(pts
 			(xy 123.19 139.7) (xy 123.19 157.48)
 		)
 		(stroke
@@ -3769,7 +3791,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 85.09) (xy 156.21 60.96)
+			(xy 160.655 85.09) (xy 160.655 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3849,7 +3871,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 85.09) (xy 156.21 85.09)
+			(xy 193.04 85.09) (xy 160.655 85.09)
 		)
 		(stroke
 			(width 0)
@@ -4039,6 +4061,16 @@
 	)
 	(wire
 		(pts
+			(xy 192.405 58.42) (xy 198.12 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7db0af01-d761-4277-90b3-13b00e516fd4")
+	)
+	(wire
+		(pts
 			(xy 85.09 45.72) (xy 85.09 50.8)
 		)
 		(stroke
@@ -4046,16 +4078,6 @@
 			(type default)
 		)
 		(uuid "7eb80d77-6191-4f7a-a9e4-80e02aa14d16")
-	)
-	(wire
-		(pts
-			(xy 194.31 58.42) (xy 198.12 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82352c3e-1e3c-439c-95be-2a05f82e8422")
 	)
 	(wire
 		(pts
@@ -4079,7 +4101,17 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 58.42) (xy 158.75 58.42)
+			(xy 125.095 119.38) (xy 163.83 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86e90a53-98f4-4567-ac1a-fa07025f1130")
+	)
+	(wire
+		(pts
+			(xy 151.13 58.42) (xy 164.465 58.42)
 		)
 		(stroke
 			(width 0)
@@ -4179,6 +4211,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 90.17) (xy 125.095 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4f32b73-8649-4bea-8ec6-a5a725a3862b")
+	)
+	(wire
+		(pts
 			(xy 97.79 88.9) (xy 97.79 90.17)
 		)
 		(stroke
@@ -4229,6 +4271,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.095 90.17) (xy 125.095 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b360dc73-f6bc-4a87-9465-dff78f6daee9")
+	)
+	(wire
+		(pts
 			(xy 81.28 111.76) (xy 87.63 111.76)
 		)
 		(stroke
@@ -4239,7 +4291,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 60.96) (xy 158.75 60.96)
+			(xy 160.655 60.96) (xy 164.465 60.96)
 		)
 		(stroke
 			(width 0)
@@ -4399,7 +4451,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 119.38) (xy 163.83 119.38)
+			(xy 107.95 119.38) (xy 125.095 119.38)
 		)
 		(stroke
 			(width 0)
@@ -4702,108 +4754,6 @@
 			(justify left)
 		)
 		(uuid "c8f93b00-14cc-4011-8fa5-7e0fcb607e8e")
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 190.5 58.42 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "212111c6-7f90-4661-a521-02488de1ca8a")
-		(property "Reference" "C86"
-			(at 190.5 50.8 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1 μF"
-			(at 190.5 53.34 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
-			(at 194.31 57.4548 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 190.5 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 190.5 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 190.5 58.42 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "284ca166-7aa8-47ee-bc73-1a3cb68c9247")
-		)
-		(pin "1"
-			(uuid "1af6350f-f2fb-4882-8474-f93daf27ada1")
-		)
-		(instances
-			(project "retroslop"
-				(path "/c091a5a9-cc18-4de7-90b1-5162a376bd78/3896baf8-6d60-4656-8860-0028d9860976"
-					(reference "C86")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:VCC")
@@ -6491,6 +6441,110 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 125.095 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b88f86f5-6f8a-47e4-8f6a-91c62d9196cd")
+		(property "Reference" "R54"
+			(at 127.635 95.2499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k Ω"
+			(at 127.635 97.7899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 123.317 96.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.095 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 125.095 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 125.095 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 125.095 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "64c9f4d1-2f2d-4b12-a476-a78bf338571c")
+		)
+		(pin "2"
+			(uuid "59e80563-980a-4217-93a3-826d8cf7da72")
+		)
+		(instances
+			(project "retroslop"
+				(path "/c091a5a9-cc18-4de7-90b1-5162a376bd78/3896baf8-6d60-4656-8860-0028d9860976"
+					(reference "R54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "CVS-1508:CVS-1508")
 		(at 261.62 60.96 0)
 		(unit 1)
@@ -6892,7 +6946,7 @@
 	)
 	(symbol
 		(lib_id "N6L30T3N-103-3030:N6L30T3N-103-3030")
-		(at 158.75 58.42 0)
+		(at 164.465 58.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6903,7 +6957,7 @@
 		(fields_autoplaced yes)
 		(uuid "f5ab737f-dca9-4f0c-8838-5222335ede7d")
 		(property "Reference" "VR2"
-			(at 172.72 50.8 0)
+			(at 178.435 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6913,7 +6967,7 @@
 			)
 		)
 		(property "Value" "N6L30T3N-103-3030"
-			(at 172.72 53.34 0)
+			(at 178.435 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6923,7 +6977,7 @@
 			)
 		)
 		(property "Footprint" "Library:N6L30T3N1033030"
-			(at 182.88 153.34 0)
+			(at 188.595 153.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6935,7 +6989,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.piher.net/wp-content/uploads/PIHER_N-6.pdf"
-			(at 182.88 253.34 0)
+			(at 188.595 253.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6947,7 +7001,7 @@
 			)
 		)
 		(property "Description" "10 kOhms 0.1W, 1/10W PC Pins Through Hole Trimmer Potentiometer Carbon 1.0 Turn Top Adjustment"
-			(at 158.75 58.42 0)
+			(at 164.465 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6958,7 +7012,7 @@
 			)
 		)
 		(property "Height" "7.6"
-			(at 182.88 453.34 0)
+			(at 188.595 453.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6970,7 +7024,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 182.88 553.34 0)
+			(at 188.595 553.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6982,7 +7036,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 182.88 653.34 0)
+			(at 188.595 653.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6994,7 +7048,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Amphenol"
-			(at 182.88 753.34 0)
+			(at 188.595 753.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7006,7 +7060,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "N6L30T3N-103-3030"
-			(at 182.88 853.34 0)
+			(at 188.595 853.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7018,7 +7072,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 158.75 58.42 0)
+			(at 164.465 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7029,7 +7083,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 158.75 58.42 0)
+			(at 164.465 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

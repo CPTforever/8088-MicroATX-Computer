@@ -1351,12 +1351,6 @@
 		(uuid "01b9d117-3bdd-4cb7-8017-4610feddfebb")
 	)
 	(junction
-		(at 129.54 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2ed85e68-f145-4e8a-b45d-c999f9b2fb1c")
-	)
-	(junction
 		(at 87.63 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1379,12 +1373,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "70ee59f9-19fe-4248-98f1-9fda7b96cc21")
-	)
-	(junction
-		(at 142.24 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "761cfb45-c00b-4b0e-aab7-8115da7be634")
 	)
 	(junction
 		(at 116.84 83.82)
@@ -1426,16 +1414,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 68.58) (xy 142.24 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0fd40059-99e7-4bba-a944-e12b6570777b")
-	)
-	(wire
-		(pts
 			(xy 71.12 29.21) (xy 66.04 29.21)
 		)
 		(stroke
@@ -1466,7 +1444,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 44.45) (xy 146.05 44.45)
+			(xy 100.33 44.45) (xy 146.05 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1483,16 +1461,6 @@
 			(type default)
 		)
 		(uuid "5228833a-ca08-4fce-9c4c-0bc669936beb")
-	)
-	(wire
-		(pts
-			(xy 100.33 44.45) (xy 142.24 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5268afc1-24ae-499c-849f-7288522697c8")
 	)
 	(wire
 		(pts
@@ -1626,16 +1594,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 83.82) (xy 142.24 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8ec5bb9-cd6e-4369-9f65-85fbc281667d")
-	)
-	(wire
-		(pts
 			(xy 129.54 76.2) (xy 129.54 83.82)
 		)
 		(stroke
@@ -1653,16 +1611,6 @@
 			(type default)
 		)
 		(uuid "c0a09a58-3169-45bc-820a-bd154f3084ef")
-	)
-	(wire
-		(pts
-			(xy 142.24 83.82) (xy 142.24 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1835e14-ead4-4e02-a6e5-369765443d6d")
 	)
 	(wire
 		(pts
@@ -2306,110 +2254,6 @@
 			(project "retroslop"
 				(path "/c091a5a9-cc18-4de7-90b1-5162a376bd78/fbb5c2c0-1aa7-4b69-85e2-74d8c9e781ba"
 					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 142.24 72.39 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "688ad5ae-873a-4a90-87c1-57e4056a64fa")
-		(property "Reference" "C11"
-			(at 146.05 71.1199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10 uF"
-			(at 146.05 73.6599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
-			(at 143.2052 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 142.24 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 142.24 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 142.24 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 142.24 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9ef83e12-7666-4638-9159-8ecb8ba8a76a")
-		)
-		(pin "2"
-			(uuid "017b04b3-6906-4f7e-b424-8277d4e6bb2a")
-		)
-		(instances
-			(project "retroslop"
-				(path "/c091a5a9-cc18-4de7-90b1-5162a376bd78/fbb5c2c0-1aa7-4b69-85e2-74d8c9e781ba"
-					(reference "C11")
 					(unit 1)
 				)
 			)
